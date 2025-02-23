@@ -270,6 +270,22 @@ namespace MyConsoleApp
             );
         }
 
+
+        [Test]
+        public void TestCase14()
+        {
+            RunTestCase
+            (
+                "WelcomeWelcome",
+                [
+                            ["Welcome", "", ""],
+                            ["Wel", "", ""],
+                            ["", "come"]
+                ],
+                false
+            );
+        }
+
         private void LogTestResult(string testCaseName, double duration, bool passed)
         {
             var result = passed ? "Passed" : "Failed";
