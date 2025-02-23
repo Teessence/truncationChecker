@@ -1,0 +1,99 @@
+{
+  "w": [
+    {
+      "Count": 1,
+      "OuterListIndex": 0,
+      "InnerListIndex": 0
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 0,
+      "InnerListIndex": 2
+    }
+  ],
+  "i": [
+    {
+      "Count": 1,
+      "OuterListIndex": 0,
+      "InnerListIndex": 0
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 0,
+      "InnerListIndex": 1
+    }
+  ],
+  "m": [
+    {
+      "Count": 1,
+      "OuterListIndex": 0,
+      "InnerListIndex": 1
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 1
+    },
+    {
+      "Count": 2,
+      "OuterListIndex": 1,
+      "InnerListIndex": 2
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 2,
+      "InnerListIndex": 1
+    }
+  ],
+  "t": [
+    {
+      "Count": 1,
+      "OuterListIndex": 0,
+      "InnerListIndex": 1
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 0
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 1
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 2
+    }
+  ],
+  "a": [
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 0
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 1
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 1,
+      "InnerListIndex": 2
+    }
+  ],
+  "y": [
+    {
+      "Count": 1,
+      "OuterListIndex": 2,
+      "InnerListIndex": 0
+    },
+    {
+      "Count": 1,
+      "OuterListIndex": 2,
+      "InnerListIndex": 1
+    }
+  ]
+}
