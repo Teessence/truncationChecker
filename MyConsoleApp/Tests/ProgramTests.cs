@@ -209,6 +209,67 @@ namespace MyConsoleApp
             );
         }
 
+        [Test]
+        public void TestCase10()
+        {
+            RunTestCase
+            (
+                "Welcome",
+                [
+                            ["", "", ""],
+                            ["", "", ""],
+                            ["", ""]
+                ],
+                true
+            );
+        }
+
+        [Test]
+        public void TestCase11()
+        {
+            RunTestCase
+            (
+                "Welcome",
+                [
+                            ["Welcome", "", ""],
+                            ["", "", ""],
+                            ["", ""]
+                ],
+                false
+            );
+        }
+
+        [Test]
+        public void TestCase12()
+        {
+            RunTestCase
+            (
+                "Welcome1",
+                [
+                            ["Welcome", "", ""],
+                            ["", "", ""],
+                            ["", ""]
+                ],
+                true
+            );
+        }
+
+
+        [Test]
+        public void TestCase13()
+        {
+            RunTestCase
+            (
+                "WelcomeWelcome",
+                [
+                            ["Welcome", "", ""],
+                            ["", "Welcome", ""],
+                            ["", ""]
+                ],
+                false
+            );
+        }
+
         private void LogTestResult(string testCaseName, double duration, bool passed)
         {
             var result = passed ? "Passed" : "Failed";
